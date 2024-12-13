@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Getting Started</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- <div id="pointer"></div>
+    <div class="controls">
+    </div> -->
+    <div class="main-class">
+    <div class="videobox">
+        <div>
+        <button id="track" disabled="true">Start video</button>
+        <input type="file" id="upload-pdf" accept="application/pdf" />
+        </div>
+        <video id="srcvideo" autoplay="true"></video>
+        <canvas id="canvas"></canvas>
+        <div id="updatenote">Loading model...</div>
+        <!-- <input type="file" id="file-input" accept="application/pdf" /> -->
+        <div id="log" style="overflow-y: scroll; height:400px;"></div>
+        
+    </div>  
+    <div class="pdf-loader"> 
+        <div id="pdf-pointer" style="height: 10px; width: 100%;"></div>
+        <div id="pdf-container">
+            
+        </div>
+    </div>  
+    </div>  
+   
+    
+    <script src="bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+ 
+</body>
+
+</html>

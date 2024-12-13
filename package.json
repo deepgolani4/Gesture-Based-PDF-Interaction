@@ -1,0 +1,40 @@
+{
+  "name": "hand-recognition",
+  "version": "1.0.0",
+  "description": "Hand recognition in JavaScript",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajsuthar/hand-recognition.git"
+  },
+  "keywords": [
+    "hand",
+    "recognition"
+  ],
+  "author": "Dheeraj Suthar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajsuthar/hand-recognition/issues"
+  },
+  "homepage": "https://github.com/dheerajsuthar/hand-recognition#readme",
+  "dependencies": {
+    "artyom.js": "^1.0.6",
+    "handtrackjs": "0.1.5",
+    "lodash": "^4.17.15",
+    "pdfjs": "^2.5.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
