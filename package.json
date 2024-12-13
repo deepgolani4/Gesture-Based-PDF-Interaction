@@ -15,8 +15,6 @@
     "hand",
     "recognition"
   ],
-  "author": "Dheeraj Suthar",
-  "license": "ISC",
   "dependencies": {
     "artyom.js": "^1.0.6",
     "handtrackjs": "0.1.5",
