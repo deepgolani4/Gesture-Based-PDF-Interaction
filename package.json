@@ -9,8 +9,7 @@
     "start": "webpack-dev-server --open"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dheerajsuthar/hand-recognition.git"
+    "type": "git"
   },
   "keywords": [
     "hand",
@@ -18,10 +17,6 @@
   ],
   "author": "Dheeraj Suthar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dheerajsuthar/hand-recognition/issues"
-  },
-  "homepage": "https://github.com/dheerajsuthar/hand-recognition#readme",
   "dependencies": {
     "artyom.js": "^1.0.6",
     "handtrackjs": "0.1.5",
